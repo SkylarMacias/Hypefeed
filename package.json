@@ -1,0 +1,24 @@
+{
+  "name": "HypeFeed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "node --max-old-space-size=4096./node_modules/@angular/cli/bin/ng build --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.16.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.5.0",
+    "request": "^2.88.0"
+  }
+}

@@ -1,0 +1,14 @@
+<div class="center container-fluid row">
+  <div class="main col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center mb-5 mt-2 bg-white pb-3 pt-2" *ngFor="let post of posts">
+    <h2 style="font-weight:500; color: goldenrod" class="font text-center">{{post.site}}</h2>
+    <h5 class="text-center pl-1 pr-1">
+      <a style="font-weight:300;" class="font text-dark" href="{{post.link}}" target="_blank">{{post.title}}</a>
+    </h5>
+    <h6 style="font-weight:400;" class="font text-center d-inline-block">{{ post.dateString }}</h6>
+    <div class="container image-frame">
+      <a class="image center d-inline-block" href="{{post.link}}">
+        <img class="image center" src="{{post.img}}" alt="">
+      </a>
+    </div>
+  </div>
+</div>

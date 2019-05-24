@@ -1,0 +1,11 @@
+body {
+    background-image: url(./assets/images/speckle.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 480px){
+    body{
+        background-size: 100vw;
+    }
+}

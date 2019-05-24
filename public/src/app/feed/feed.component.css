@@ -1,0 +1,50 @@
+.center {
+    margin: auto;
+    height:100%;
+    width:auto;
+}
+.font {
+    font-family: 'Work Sans', sans-serif;
+}
+.image-frame{
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 480px){
+    .image-frame{
+        height: 25vh;
+        max-height: 25vh;
+        overflow: hidden;
+    }
+    .main{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1099px){
+    .image-frame{
+        height: 25vh;
+        max-height: 25vh;
+    }
+    .main{
+        padding-left: 5px;
+        padding-right:5px;
+    }
+    .image{
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 1100px){
+    .image-frame{
+        height: 35vh;
+        max-height: 35vh;
+    }
+    .main{
+        padding-left: 5px;
+        padding-right:5px;
+    }
+    .image{
+        max-width: 100%;
+    }
+}
